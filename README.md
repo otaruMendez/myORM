@@ -11,6 +11,8 @@ require_once('TestModel.php');
 $users = new TestModel();
 $users = $users->findAll();
 
+// Table users has 3 columns id, i, second.
+// Has 3 rows with random data
 var_dump($users);
 
 ```
